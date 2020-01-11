@@ -7,11 +7,17 @@
 .c-l {
   grid-column: span 12;
 }
+.c-ml {
+  grid-column: span 11;
+}
 .c-m {
   grid-column: span 6;
 }
 .c-s {
   grid-column: span 4;
+}
+.c-xs {
+  grid-column: span 1;
 }
 @media screen and (max-width: 799px) {
   .c-m {
@@ -96,11 +102,23 @@ input[type="email"] {
   margin: 0px auto;
   text-align: center;
   max-width: 560px;
-  padding-top: 20px;
+  padding-top: 40px;
 }
 .products {
   width: 75%;
   margin: 0px auto;
+  padding-top: 30px;
+}
+.fa {
+  font-size: 35px !important;
+  color: #2994B2;
+}
+h4 {
+  margin-top: 0px;
+  margin-bottom: 5px;
+}
+.product-icon {
+  width: 35px;
 }
 @media screen and (max-width: 799px) { 
   .nav-links {
@@ -122,7 +140,7 @@ input[type="email"] {
     padding: 0px 15px 0px 15px;
   }
   .products {
-    width: 85%;
+    width: 95%;
     margin: 0px auto;
   }
 }
